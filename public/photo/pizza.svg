@@ -1,0 +1,21 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="pizzaGrad" cx="40%" cy="40%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFA500;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  <rect width="200" height="200" fill="#F5E6D3"/>
+  <circle cx="100" cy="100" r="70" fill="url(#pizzaGrad)"/>
+  <ellipse cx="100" cy="100" rx="65" ry="60" fill="#FFB347" opacity="0.7"/>
+  <circle cx="70" cy="75" r="8" fill="#FF6347"/>
+  <circle cx="100" cy="65" r="10" fill="#FF6347"/>
+  <circle cx="130" cy="80" r="9" fill="#FF6347"/>
+  <circle cx="75" cy="110" r="7" fill="#228B22"/>
+  <circle cx="105" cy="115" r="8" fill="#228B22"/>
+  <circle cx="125" cy="105" r="6" fill="#228B22"/>
+  <circle cx="90" cy="95" r="5" fill="#FFD700"/>
+  <circle cx="110" cy="100" r="5" fill="#FFD700"/>
+  <path d="M 30 100 L 35 105 L 32 110" fill="#8B4513" opacity="0.6"/>
+  <text x="100" y="180" font-size="16" font-weight="bold" text-anchor="middle" fill="#8B4513">PIZZA</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cupGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B6F47;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#654321;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" fill="#FFF8DC"/>
+  <path d="M 70 70 L 65 140 Q 65 150 75 150 L 125 150 Q 135 150 135 140 L 130 70" fill="url(#cupGrad)"/>
+  <ellipse cx="100" cy="70" rx="30" ry="12" fill="#A0826D"/>
+  <ellipse cx="100" cy="145" rx="30" ry="10" fill="#5C4033" opacity="0.8"/>
+  <path d="M 135 100 Q 145 105 145 115" stroke="#8B6F47" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M 100 50 Q 105 40 100 25" stroke="#654321" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M 100 25 Q 95 15 100 5" stroke="#654321" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <circle cx="85" cy="100" r="4" fill="#8B7355" opacity="0.6"/>
+  <circle cx="100" cy="105" r="3" fill="#8B7355" opacity="0.6"/>
+  <circle cx="115" cy="100" r="4" fill="#8B7355" opacity="0.6"/>
+  <text x="100" y="180" font-size="16" font-weight="bold" text-anchor="middle" fill="#654321">COFFEE</text>
+</svg>

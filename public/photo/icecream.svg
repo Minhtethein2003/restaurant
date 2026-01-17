@@ -1,0 +1,20 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="coneGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D2691E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B4513;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" fill="#FFE4E1"/>
+  <polygon points="100,160 70,110 130,110" fill="url(#coneGrad)"/>
+  <path d="M 75 125 L 80 135" stroke="#A0522D" stroke-width="1" opacity="0.5"/>
+  <path d="M 100 120 L 105 135" stroke="#A0522D" stroke-width="1" opacity="0.5"/>
+  <path d="M 125 125 L 120 135" stroke="#A0522D" stroke-width="1" opacity="0.5"/>
+  <ellipse cx="100" cy="75" rx="35" ry="40" fill="#FFB6C1"/>
+  <ellipse cx="80" cy="65" rx="32" ry="38" fill="#FFB6C1" opacity="0.9"/>
+  <ellipse cx="120" cy="65" rx="32" ry="38" fill="#FFB6C1" opacity="0.9"/>
+  <circle cx="90" cy="70" r="6" fill="#FF69B4"/>
+  <circle cx="110" cy="75" r="5" fill="#FF69B4"/>
+  <circle cx="100" cy="50" r="4" fill="#FF1493"/>
+  <text x="100" y="185" font-size="14" font-weight="bold" text-anchor="middle" fill="#8B008B">ICE CREAM</text>
+</svg>
